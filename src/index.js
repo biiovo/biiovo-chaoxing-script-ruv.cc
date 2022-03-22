@@ -15,7 +15,7 @@ const rl = readline.createInterface()
   {
     // 打印本地用户列表，并返回用户数量
     let userLength = printUsers()
-    let input = await readline.question(rl, '[ If the user in the list is used, enter the previous serial number; If you log in with your account and password, enter n. if you have any questions, please consult the official website: ruv.cc：')
+    let input = await readline.question(rl, '[ If the user in the list is used, enter the previous serial number; If you log in with your account and password, enter biiovo. if you have any questions, please consult the official website: ruv.cc：')
     // 使用新用户登录
     if (input === 'biiovo') {
       let uname = await readline.question(rl, 'biiovo ID：')
