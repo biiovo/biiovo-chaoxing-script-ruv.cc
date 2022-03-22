@@ -1,0 +1,12 @@
+{
+  "name": "biiovo-chaoxing-script-ruv.cc",
+  "version": "1.9.8",
+  "description": "Superstar learning sign in command line tool",
+  "main": "index.js",
+  "scripts": {
+    "start": "(node ./src/index.js && echo \"Checking for updates. If the waiting time is too long, please hang up the agent (press Ctrl + C to terminate) if you have any questions, please consult the official website: ruv.cc\" && git pull) || (echo \"Checking for updates. If the waiting time is too long, please hang up the agent (press Ctrl + C to terminate) if you have any questions, please consult the official website: ruv.cc\" && git pull)"
+  },
+  "repository": "https://github.com/biiovo/biiovo-chaoxing-script-ruv.cc.git",
+  "author": "biiovo",
+  "license": "biiovo"
+}
